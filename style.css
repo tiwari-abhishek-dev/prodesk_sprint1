@@ -1,0 +1,201 @@
+
+body{
+    background-color: #f5f7fa;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px ;
+    background-color: #fff;
+    position:sticky;
+    top: 0;
+}
+.Logo{
+    font-size: 15px;
+    text-align: left;
+    font-weight:bold;
+
+}
+.theme-btn{
+    background-color: blueviolet;
+    color: white;
+}
+.links{
+    display:flex;
+    background-color: #ffffff;
+    list-style: none;
+    gap: 20px;
+}
+
+    .Hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.Hero h1{
+    font-size: 80px;
+    color: blueviolet;
+    margin-bottom: 30px;
+}
+
+.Hero p{
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+}
+
+
+.image img{
+    width: 700px;
+    height: 400px;
+}
+
+.control-btn{
+    background-color:blue;
+margin-left: 50px;
+color:#fff;
+}
+.control-btn:hover{
+    background-color: darkblue;
+}
+
+.service h2{
+    text-transform: capitalize;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.service p{
+    text-transform: capitalize;
+    text-align: center;
+    font-size:small;
+    font-family:Arial, Helvetica, sans-serif
+}
+.service_item{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px gray;
+}
+
+.card h3{
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+.foot{
+    background-color: royalblue;
+    
+}
+.foot p{
+    text-align: center;
+}
+.contect{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    gap: 10px;
+    padding:0px;
+
+}
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .links{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .Hero h1{
+        font-size: 40px;
+    }
+
+    .Hero p{
+        font-size: 16px;
+    }
+
+    .image{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .image img{
+        width: 100%;
+        height: auto;
+    }
+
+    .control-btn{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .service_item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .foot{
+        text-align: center;
+
+    }
+
+}
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+
+.dark-theme .navbar{
+    background-color: #222;
+}
+.dark-theme .Hero p{
+    color: white;
+}
+.dark-theme .card{
+    background-color: #333;
+    color: white;
+}
+
+
+.dark-theme .foot{
+    background-color: #222;
+    color: white;
+}
