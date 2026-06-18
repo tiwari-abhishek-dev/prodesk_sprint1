@@ -1,7 +1,15 @@
 project name: Prodesk IT sprint1
+
+
 discription: Its is simple and responsive prodesk website built using by HTML,CSS, JS.
+
+
 website Functionalities: Responsive design,Smooth navigation , Dark mode toggle feature.
+
+
 Technologies used: HTML.CSS,JS
+
+
 Website Link: prodesk-sprint1.vercel.app
 
 
