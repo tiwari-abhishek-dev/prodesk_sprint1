@@ -4,7 +4,7 @@ A responsive landing page built using HTML, CSS, and JavaScript as part of Sprin
 
 ##Live Website
 
-[View Website](prodesk-sprint1.vercel.app)
+[View Website](https://prodesk-sprint1.vercel.app/)
 [View Explaination_video drive link](https://drive.google.com/file/d/1qYZcVLcblYxKF1AZnNEe62KcU4TdwtRv/view?usp=drive_link)
 ##  Features
 * Responsive sticky navigation bar
